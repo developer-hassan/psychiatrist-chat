@@ -6,7 +6,10 @@ import {useSelector} from "react-redux";
 
 export default function Sidebar() {
     const selectedHotel = useSelector((state) => state.home.selectedHotel);
-
+    const createNewConversation = () => {
+        dispatch(setShowRecorder(false))
+        navigate('/');
+    };
     return (
         <>
             <div className="h-screen overflow-y-auto flex flex-col justify-between justify-center w-66 px-3 hidden lg:flex">
@@ -16,7 +19,7 @@ export default function Sidebar() {
                     <img className="w-32 mb-6" src={fourSeasonImg} alt=""/>
                 </div>
                 <ul className="flex flex-col items-center gap-y-4 mb-20">
-                    <li
+                     <li onClick={createNewConversation}
                         className="h-[60px] cursor-pointer relative flex items-center w-full text-lg text-white py-2.5 px-4 border-[#4169E1]">
                         <FaPlus className="h-5 w-5"/>
                         <span className="ml-3">New Conversation</span>
