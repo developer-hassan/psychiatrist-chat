@@ -1,0 +1,10 @@
+// export const baseUrl = 'http://english.ringneck.ai:8001/';
+// export const socketUrl = 'ws://english.ringneck.ai:8001/';
+// export const baseUrl = 'http://192.168.17.24:8000/';
+// export const socketUrl = 'ws://192.168.17.24:8000/';
+// export const baseUrl = "http://127.0.0.1:8000/";
+// export const socketUrl = "ws://127.0.0.1:8000/";
+// export const baseUrl = 'http://localhost:8000/';
+// export const socketUrl = 'ws://localhost:8000/';
+export const baseUrl = "http://34.42.24.152:8001/";
+export const socketUrl = "ws://34.42.24.152:8001/";

@@ -1,0 +1,11 @@
+export { default as hotelLogo } from "./images/voyage.png";
+export { default as ringNeckLogo } from "./images/ring-neck-logo.png";
+export { default as fourSeasonImg } from "./images/four-season.svg";
+export { default as usFlag } from "./images/usFlag.png";
+export { default as italianFlag } from "./images/italianFlag.png";
+export { default as koreanFlag } from "./images/koreanFlag.png";
+export { default as spanishFlag } from "./images/spanishFlag.png";
+export { default as btnRoundedBorder } from "./images/btn-border-img.svg";
+export { default as ksaFlag } from "./images/ksaFlag.png";
+export { default as roomServiceGroup } from "./images/roomServiceGroup.png";
+export { default as bellIcon } from "./images/bellIcon.png";
