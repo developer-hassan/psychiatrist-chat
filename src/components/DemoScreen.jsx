@@ -39,8 +39,8 @@ export default function DemoScreen({setShowRecorder}) {
         <>
             <div className="min-h-screen flex justify-center items-center bg-gradient">
                 <div className="flex flex-col items-center">
-                    <img className="w-64 h-64 mb-6" src={ringNeckLogo} alt=""/>
-                    <h3 className="text-white text-3xl font-semibold mb-2">Ringneck.ai</h3>
+                    <img className="w-75 h-64 mb-6" src={ringNeckLogo} alt=""/>
+                    <h3 className="text-white text-3xl font-semibold mb-2">Psychiatrist AI</h3>
                     <h1 className="text-white text-6xl font-semibold mb-6">DEMO</h1>
                     <p className="text-white text-xl mb-3">Beyond Voice! Beyond Limits</p>
                     <button onClick={onPressContinue}
