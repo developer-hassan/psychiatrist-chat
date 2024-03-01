@@ -1,6 +1,6 @@
 export { default as hotelLogo } from "./images/voyage.png";
-export { default as ringNeckLogo } from "./images/ring-neck-logo.png";
-export { default as fourSeasonImg } from "./images/four-season.svg";
+export { default as ringNeckLogo } from "./images/psychiatrist.png";
+export { default as fourSeasonImg } from "./images/ot-logo-256.png";
 export { default as usFlag } from "./images/usFlag.png";
 export { default as italianFlag } from "./images/italianFlag.png";
 export { default as koreanFlag } from "./images/koreanFlag.png";

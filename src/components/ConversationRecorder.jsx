@@ -121,7 +121,7 @@ export default function ConversationRecorder() {
                         </div>
                     </div>
                     <div className="flex justify-center pt-10 pr-10 hidden lg:flex">
-                        <img className="w-32 h-32 mb-6" src={ringNeckLogo} alt=""/>
+                        <img className="w-45 h-32 mb-6" src={ringNeckLogo} alt=""/>
                     </div>
                 </div>
             </div>

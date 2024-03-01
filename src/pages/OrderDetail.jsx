@@ -71,7 +71,7 @@ export default function OrderDetail() {
                         }
                     </div>
                     <div className="flex justify-center pt-10 pr-10 hidden lg:flex">
-                        <img className="w-32 h-32 mb-6 flex-shrink-0" src={ringNeckLogo} alt=""/>
+                        <img className="w-42 h-32 mb-6 flex-shrink-0" src={ringNeckLogo} alt=""/>
                     </div>
                 </div>
             </div>
